@@ -6,17 +6,17 @@ const wordCounter = (value) => {
 
   if (value) {
     // COMPLETE THE LOGIC
-    wordCount.innerHTML = `Word Count: 0`;
+    wordCount.innerHTML = `Word Count: ${value.length}`;
   } else {
     // if the value is empty, set the error message value to "Please input text"
-    error.innerHTML = ""; // UPDATE THIS
+    error.innerHTML = "Please input text"; // UPDATE THIS
   }
 };
 
-// OPTIONAL CHALLENGE
-const toggleMode = (btnText) => {
-  // complete the function
-};
+// // OPTIONAL CHALLENGE
+// const toggleMode = (btnText) => {
+//   // complete the function
+// };
 
 // ************************************************ //
 // **** DO NOT MODIFY THE CODE BELOW THIS LINE **** //
