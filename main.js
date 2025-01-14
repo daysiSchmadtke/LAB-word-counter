@@ -46,3 +46,9 @@ form.addEventListener("reset", () => {
 toggleButton.addEventListener("click", (event) => {
   toggleMode(event.target.innerHTML);
 });
+
+document.querySelector("#bg-switch").addEventListener("click", darkMode);
+
+function darkMode() {
+  document.body.classList.toggle("dark-mode");
+}
